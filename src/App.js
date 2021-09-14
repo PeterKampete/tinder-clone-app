@@ -1,9 +1,16 @@
-import './App.css';
+import Header from "./Header";
+import "./App.css";
+import TinderCards from "./TinderCards";
 
 function App() {
   return (
-    <div className="App">
-     let us build
+    //BEM class naming convention
+    <div className="app">
+      {/* Header */}
+      <Header />
+      {/* TinderCards */}
+      <TinderCards />
+      {/* SwipeButtons */}
     </div>
   );
 }
