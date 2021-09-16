@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:8003",
+  baseURL: "https://kampete-tinder-clone-backend.herokuapp.com",
 });
 
 export default instance;
